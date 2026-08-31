@@ -1,41 +1,57 @@
 
-# Ex.No:1 To create a employee details fields and to display the employee details using Firebase Database in Android Studio.
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
 
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Name"/>
 
-## AIM:
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Age"
+        android:inputType="number"/>
 
-To create and display the employee details using Firebase Database in Android Studio.
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:inputType="numberDecimal"/>
 
-## EQUIPMENTS REQUIRED:
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Employee"/>
 
-Android Studio(Min.required Artic Fox)
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Employee"/>
 
-## ALGORITHM:
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Employee"/>
 
-Step 1: Open Android Stdio and then click on File -> New -> New project.
-
-Step 2: Then type the Application name as HelloWorld and click Next. 
-
-Step 3: Then select the Minimum SDK as shown below and click Next.
-
-Step 4: Then select the Empty Activity and click Next. Finally click Finish.
-
-Step 5: Design layout in activity_main.xml.
-
-Step 6: Display the employee details in MainActivity file.
-
-Step 7: Save and run the application.
-
-## PROGRAM:
-```
-/*
-Program to print the DatabaseTable using the firebasedatabase”.
-Developed by:
-Registeration Number :
-*/
+</LinearLayout>
 ```
 
 ## OUTPUT
+
+<img width="1917" height="1020" alt="Screenshot 2026-08-03 234449" src="https://github.com/user-attachments/assets/7d895c12-31ed-4858-8eea-40c2d775459a" />
+
+<img width="1917" height="1013" alt="Screenshot 2026-08-03 234539" src="https://github.com/user-attachments/assets/ff324a24-43d2-4ae9-aab5-0b661bf9a071" />
+
+
 
 
 
